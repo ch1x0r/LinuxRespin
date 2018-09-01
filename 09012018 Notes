@@ -1,0 +1,90 @@
+Pi Workshop 
+
+Alexa - need mic
+
+pi
+sd
+mic
+speaker
+Monitor or ssh
+
+
+1. AMazon Dev Acct
+2. Alexa > Product > device
+3. Name device type and display name
+4. Security
+5. Product ID, Client ID, Client Secret.
+6. Add another to Allowed Origins
+http://localhost:5050
+Add another PI address - curl icanhazip.com - or ... whatsmyip.com or whatever
+http://ippi:5050
+
+7. Allowed Return URLs
+Add
+http://localhost:5050/code
+http://ippi:5050/code
+
+8. Device Details
+
+apt-get update
+apt-get install git
+cd /opt
+sudo git clone https://github.com/alexa-pi/AlexaPi.git
+sudo ./AlexaPi/src/scripts/setup.sh
+
+localhost:5050
+Setup - success!
+sudo systemctl start AlexaPi.service  or reboot
+
+
+Check status
+sudo systemctl status AlexaPi.service
+-----------------------------------------------------------------
+NAS
+NAS - Downloaded OMV xz
+GNU Downloads # unxz OMV_4_Raspberry_Pi_2_3_3Plus.img.xz 
+dd image
+GNU Downloads # sudo dcfldd if=imagename.img of=/dev/sdX
+
+so in this case with the Mint Box (tina)
+GNU Downloads # sudo dcfldd if=imagename.img of=/dev/sdX
+of if
+
+
+to take the image from the sd and copy to desktop.
+place sd in adapter 
+place in laptop/destop
+sudo dd if=/dev/sdX of = imagename.img status=progress
+
+ dcfldd if=OMV_4_Raspberry_Pi_2_3_3Plus.img of=/dev/sdb
+
+sd1 - kernel panic
+rewrite
+try again....
+maybe bad sd adapter>
+-----------------------------------------------------------------
+Camera with pi
+
+Let's try it.
+
+
+------------------------------------------------------------------
+
+Chromecast pi
+https://www.geek.com/android/picast-the-open-source-raspberry-pi-chromecast-alternative-1564550/
+
+https://www.youtube.com/watch?time_continue=63&v=HUgbCoORkYM
+picast
+
+
+github
+https://github.com/lanceseidman/PiCAST
+
+
+
+https://pimylifeup.com/raspberry-pi-chromecast/
+
+
+
+
+
