@@ -2,7 +2,7 @@
 New release. Works on MX.
 Debian release.
 
-![alt text](https://github.com/ch1x0r/LinuxRespin/blob/master/respinmx.png)?raw=true)
+![alt text](https://github.com/ch1x0r/LinuxRespin/blob/master/respinmx.png)
 
 
 ## docs need update
