@@ -1,28 +1,14 @@
 # LinuxRespin
-Just say no to M$
+New release. Works on MX.
+Debian release.
 
-Leave the DARK SIDE! 
-
-https://gitlab.com/remastersys/LinuxRespin
-
-So Long and Thanks for all the fish!
+![alt text](https://github.com/ch1x0r/LinuxRespin/blob/master/respinmx.png)?raw=true)
 
 
+## docs need update
+How to restore!
 
-                 _.-,
-             .--'  '-._
-          _/`-  _      '.
-         '----'._`.----. \
-                  `     \;
-                 jgs    ;_\
+## new interface
+Coming soon
 
-
-                ,-._
-              _.-'  '--.
-            .'      _  -`\_
-           / .----.`_.'----'
-           ;/     `
-    jgs   /_;
-
-       ._      ._      ._      ._
-   
+## DE builder - coming soon!
